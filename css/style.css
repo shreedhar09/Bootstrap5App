@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item  img {
+    width: 50%;
+    height: 93vh;
+}
+.about_img {
+    min-width: 100%;
+    height: 280px;
+}
+
+.servises img{
+    width: 100%;
+    height: 100%;
+}
+
+.service_heading {
+	text-transform: uppercase;
+	position: relative;
+}
+
+.service_heading:after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0%;
+	height: auto;
+	border-bottom: 3px solid #3e4555;
+	transition: all 0.3s linear;
+}
+
+.service_heading:hover:after {
+	width: 50%
+}
+
+footer p {
+    margin-bottom: 0;
+}
+.offer_style {
+    background: #a6dcef;
+}
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
